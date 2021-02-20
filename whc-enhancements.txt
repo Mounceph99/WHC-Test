@@ -1,0 +1,13 @@
+I'd like you to make the following enhancements:
+
+* Move the GitHub API call to the server side.
+
+* Create a new directorty called commands/ and add the following classes in this directory:
+    * AbstractCommand class
+    * AddCommand extends AbstractCommand
+    * SortAscCommand extends AbstractCommand
+    * RepoDescCommand extends AbstractCommand
+	
+* When a command is executed by a user, loop on the classes in the commands/ directory and check for a matching class, instantiate, execute and return results.
+
+* Validation should happen within the command
